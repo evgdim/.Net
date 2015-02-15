@@ -1,0 +1,25 @@
+<table class="table">
+    <tr ng-repeat="u in users">
+        <td >
+            <span>{{u.Name}}</span>
+        </td>
+        <td>
+            <span>{{u.EGN}}</span>
+        </td>
+        <td>
+            <button class="btn btn-danger" ng-click="deleteUser($event, $index);">-</button>
+        </td>
+    </tr>
+</table>
+<div class="row">
+    <div class="col-lg-5">
+        <input class="form-control" type="text" ng-model="user.name" />
+    </div>
+    <div class="col-lg-5">
+        <input class="form-control" type="text" ng-model="user.egn" />
+    </div>
+    <div class="col-lg-2">
+        <button class="btn btn-default btn-sm" ng-click="addUser();">Add</button>
+    </div>
+</div>
+
