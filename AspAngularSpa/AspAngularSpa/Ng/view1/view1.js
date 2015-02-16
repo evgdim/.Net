@@ -9,8 +9,9 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', ["$scope", "$http", function ($scope, $http) {
+.controller('View1Ctrl', ["$scope", "$http", "AuthenticationService", function ($scope, $http, AuthenticationService) {
     $scope.users = [];
+    $scope.isAdmin = AuthenticationService.isAdmin();
     $scope.$on('$viewContentLoaded', function () {
         $http.get('/api/Users').
           success(function(data, status, headers, config) {
@@ -19,7 +20,7 @@ angular.module('myApp.view1', ['ngRoute'])
           error(function(data, status, headers, config) {
               alert('Error loading users');
           });
-        
+        AuthenticationService.login({name:'evgeni', role: 'admin'});
     });
     $scope.addUser = function () {
         var userObj = { Name: $scope.user.name, EGN: $scope.user.egn };

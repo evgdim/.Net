@@ -145,6 +145,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Ng\services.js" />
     <Content Include="Ng\components\version\interpolate-filter.js" />
     <Content Include="Ng\components\version\interpolate-filter_test.js" />
     <Content Include="Ng\components\version\version-directive.js" />
