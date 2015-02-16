@@ -1,1 +1,4 @@
-AspAngularSpa\packages\
+AspAngularSpa/packages/
+AspAngularSpa/AspAngularSpa/bin/
+AspAngularSpa/AspAngularSpa/obj/
+*.suo

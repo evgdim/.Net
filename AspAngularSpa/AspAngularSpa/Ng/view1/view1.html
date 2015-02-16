@@ -11,15 +11,20 @@
         </td>
     </tr>
 </table>
-<div class="row">
-    <div class="col-lg-5">
-        <input class="form-control" type="text" ng-model="user.name" />
+<form name="myform" ng-submit="myform.$valid && addUser()">
+    <div class="row">
+        <div class="col-lg-5">
+            <input class="form-control" type="text" ng-model="user.name" name="username" required />
+            <span ng-show="myform.username.$error.required">Username is required.</span>
+        </div>
+        <div class="col-lg-5">
+            <input class="form-control" type="text" ng-model="user.egn" name="useregn" required ng-minlength="3" />
+            <span ng-show="myform.useregn.$error.minlength">Min length 3</span><!--formName.fieldName-->
+            <span ng-show="myform.useregn.$error.required">Required</span>
+        </div>
+        <div class="col-lg-2">
+            <!--<button class="btn btn-default btn-sm" ng-click="addUser();">Add</button>-->
+            <button type="submit" ng-disabled="myform.$invalid">Add</button>
+        </div>
     </div>
-    <div class="col-lg-5">
-        <input class="form-control" type="text" ng-model="user.egn" />
-    </div>
-    <div class="col-lg-2">
-        <button class="btn btn-default btn-sm" ng-click="addUser();">Add</button>
-    </div>
-</div>
-
+</form>
