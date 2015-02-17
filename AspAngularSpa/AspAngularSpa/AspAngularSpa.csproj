@@ -155,6 +155,8 @@
     <Content Include="Ng\view1\view1.html" />
     <Content Include="Ng\view1\view1.js" />
     <Content Include="Ng\view1\view1_test.js" />
+    <Content Include="Ng\login\login.html" />
+    <Content Include="Ng\login\login.js" />
     <Content Include="Ng\view2\view2.html" />
     <Content Include="Ng\view2\view2.js" />
     <Content Include="Ng\view2\view2_test.js" />

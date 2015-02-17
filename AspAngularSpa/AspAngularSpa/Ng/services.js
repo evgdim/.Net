@@ -15,16 +15,22 @@ factory('AuthenticationService', function ($http, SessionService) {
             console.log('[login] user:'+user.name +" "+ user.role);
             SessionService.currentUser = user;
         },
+        logout: function () {
+            //console.log('[logout] user:' + SessionService.currentUser.name + " " + SessionService.currentUser.role);
+            SessionService.currentUser = null;
+        },
         isLoggedIn: function () {
-            return SessionService.currentUser !== null;
+            return SessionService.currentUser != null;
         },
         isAdmin: function () {
             if (SessionService.currentUser) {
-                console.log('[isAdmin] user:' + SessionService.currentUser.name + " " + SessionService.currentUser.role);
                 return SessionService.currentUser.role == 'admin' ? true : false;
             } else {
                 return false;
             }
+        },
+        getUser: function () {
+            return SessionService.currentUser;
         }
     };
 });
