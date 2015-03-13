@@ -1,0 +1,5 @@
+C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\ActiveDirectoryTemplate\obj\Debug\ActiveDirectoryTemplate.csprojResolveAssemblyReference.cache
+C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\ActiveDirectoryTemplate\bin\Debug\ActiveDirectoryTemplate.dll
+C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\ActiveDirectoryTemplate\bin\Debug\ActiveDirectoryTemplate.pdb
+C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\ActiveDirectoryTemplate\obj\Debug\ActiveDirectoryTemplate.dll
+C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\ActiveDirectoryTemplate\obj\Debug\ActiveDirectoryTemplate.pdb
