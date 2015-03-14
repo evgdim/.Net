@@ -1,8 +1,0 @@
-C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
-C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\Client.exe.config
-C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\Client.exe
-C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\Client.pdb
-C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\ActiveDirectoryTemplate.dll
-C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\ActiveDirectoryTemplate.pdb
-C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\obj\Debug\Client.exe
-C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\obj\Debug\Client.pdb
