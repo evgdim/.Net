@@ -11,7 +11,7 @@ namespace Client
     {
         static void Main(string[] args)
         {
-            AdTmpl tmpl = new AdTmpl(@"LDAP://192.168.8.10/DC=csr,DC=nevexis,DC=com", @"Administrator", @"Mi4igan3");
+            AdTmpl tmpl = new AdTmpl(@"LDAP://<host>/DC=<a>,DC=<b>,DC=<c>", @"", @"");
             List<User> u = tmpl.Search<User>("(&(objectClass=person)(sAMAccountName=EVGENI))", new HashSet<string> { AdProperties.LOGINNAME },
                         a =>
                         {
