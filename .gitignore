@@ -1,4 +1,8 @@
 AspAngularSpa/packages/
 AspAngularSpa/AspAngularSpa/bin/
 AspAngularSpa/AspAngularSpa/obj/
+ActiveDirectoryTemplate/Client/bin/
+ActiveDirectoryTemplate/Client/obj/
+ActiveDirectoryTemplate/ActiveDirectoryTemplate/bin/
+ActiveDirectoryTemplate/ActiveDirectoryTemplate/obj/
 *.suo
