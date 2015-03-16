@@ -7,7 +7,7 @@
     <ProjectGuid>{B2628A80-E2BB-44D5-8C1A-E384A7A51207}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ActiveDirectoryTemplate</RootNamespace>
+    <RootNamespace>Template</RootNamespace>
     <AssemblyName>ActiveDirectoryTemplate</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="amqmdnet, Version=1.0.0.3, Culture=neutral, PublicKeyToken=dd3cb1c9aae9ec97, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\IBM\WebSphere MQ\bin\amqmdnet.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
@@ -40,7 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdProperties.cs" />
+    <Compile Include="DbTmpl.cs" />
+    <Compile Include="MqTmpl.cs" />
+    <Compile Include="Utils\AdProperties.cs" />
     <Compile Include="AdTmpl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

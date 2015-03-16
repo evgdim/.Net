@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="amqmdnet, Version=1.0.0.3, Culture=neutral, PublicKeyToken=dd3cb1c9aae9ec97, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\IBM\WebSphere MQ\bin\amqmdnet.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
@@ -50,9 +54,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ActiveDirectoryTemplate\ActiveDirectoryTemplate.csproj">
+    <ProjectReference Include="..\ActiveDirectoryTemplate\Template.csproj">
       <Project>{b2628a80-e2bb-44d5-8c1a-e384a7a51207}</Project>
-      <Name>ActiveDirectoryTemplate</Name>
+      <Name>Template</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

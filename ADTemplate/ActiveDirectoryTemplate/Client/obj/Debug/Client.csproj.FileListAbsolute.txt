@@ -6,3 +6,11 @@ C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\ActiveDirectoryT
 C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\ActiveDirectoryTemplate.pdb
 C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\obj\Debug\Client.exe
 C:\PROJECTS\ADTemplate\ActiveDirectoryTemplate\Client\obj\Debug\Client.pdb
+C:\PROJECTS\DNet\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\Client.exe.config
+C:\PROJECTS\DNet\ADTemplate\ActiveDirectoryTemplate\Client\obj\Debug\Client.exe
+C:\PROJECTS\DNet\ADTemplate\ActiveDirectoryTemplate\Client\obj\Debug\Client.pdb
+C:\PROJECTS\DNet\ADTemplate\ActiveDirectoryTemplate\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\PROJECTS\DNet\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\Client.exe
+C:\PROJECTS\DNet\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\Client.pdb
+C:\PROJECTS\DNet\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\ActiveDirectoryTemplate.dll
+C:\PROJECTS\DNet\ADTemplate\ActiveDirectoryTemplate\Client\bin\Debug\ActiveDirectoryTemplate.pdb
